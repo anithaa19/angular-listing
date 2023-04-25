@@ -1,0 +1,17 @@
+.header_wrapper {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 58px;
+    background-color: #1511c7;
+
+    padding: 0px 24px;
+    color: #fff;
+
+    font: normal normal 500 16px/20px Poppins;
+}
+
+.item:hover {
+    color: #fff;
+    font: normal normal 500 18px/20px Poppins;
+}

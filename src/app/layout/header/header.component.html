@@ -1,0 +1,24 @@
+
+<div class="header_wrapper">
+    <div class="navbar nav px-3 pt-3">
+        <ul class="w-100 d-flex align-items-center list-unstyled">
+            <div class="col-10 d-flex ">
+                <li class="nav px-3">
+                    <a [routerLink]="['/user']" class="item mb-0">User Information</a>
+                </li>
+                <li class="nav px-3">
+                    <a [routerLink]="[]" class="item mb-0">About</a>
+                </li>
+                <li class="nav px-3">
+                    <a [routerLink]="['/contact']" class="item mb-0">Contact</a>
+                </li>
+            </div>
+            
+    
+            <li class="nav col-2 d-flex justify-content-end">
+                <p class="item mb-0 text-end">{{ getFormattedDate() }}</p>
+            </li>
+        </ul>
+        
+    </div>   
+</div>

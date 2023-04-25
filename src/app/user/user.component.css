@@ -1,0 +1,17 @@
+.user_data_Wrapper {
+    margin-top: 68px;
+}
+thead tr th {
+    color: #1511c7;
+    text-align: center;
+    font: normal normal 600 18px/22px Poppins
+}
+
+tbody tr td {
+    color: #000;
+    font: normal normal normal 14px/18px Poppins;
+}
+.postal_code {
+    color: #ab1f1fdb;
+    font: normal italic normal 14px/18px Poppins;
+}
